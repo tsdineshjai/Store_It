@@ -135,7 +135,7 @@ const FormDescription = React.forwardRef<
     <p
       ref={ref}
       id={formDescriptionId}
-      className={cn("text-[0.8rem] text-neutral-500 dark:text-neutral-400", className)}
+      className={cn("text-[0.8rem] text-stone-500 dark:text-stone-400", className)}
       {...props}
     />
   )
